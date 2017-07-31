@@ -129,7 +129,7 @@
 <pre><code class="javascript">var myNetwork = new architect.LSTM(1,10,5,1);
 </code></pre>
 
-<p>Or built your <strong>own</strong> network with pre-built layers:</p>
+<p>Or build your <strong>own</strong> network with pre-built layers:</p>
 <pre><code class="javascript">var input = new Layer.Dense(2);
 var hidden1 = new Layer.LSTM(5);
 var hidden2 = new Layer.GRU(3);
@@ -142,7 +142,7 @@ hidden2.connect(output);
 var myNetwork = architect.Construct([input, hidden1, hidden2, output]);
 </code></pre>
 
-<p>You can even built your network neuron-by-neuron using <b>nodes</b> and <b>groups</b>!</p>
+<p>You can even build your network neuron-by-neuron using <b>nodes</b> and <b>groups</b>!</p>
 <p><details>
 <summary><a href="docs/">Visit the wiki to get started</a></summary>
 </details>
